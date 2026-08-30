@@ -4,9 +4,13 @@ Solutions to [Advent of Code](https://adventofcode.com/) puzzles, written in sev
 
 ## Progress
 
-Nothing solved yet.
+This section is maintained by hand and nothing checks it, so a row belongs in the same commit as the solution it describes. Days are grouped by year, one table per year.
 
-This section is maintained by hand and nothing checks it, so a row belongs in the same commit as the solution it describes. Days are grouped by year, one table per year, added as the first solution for that year lands.
+### 2025
+
+| Day | Solved in |
+|:--|:--|
+| 01 | [OCaml](ocaml/bin/y2025d01.ml), part one |
 
 ## Layout
 
