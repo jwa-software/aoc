@@ -615,3 +615,19 @@ AGENTS.local.md
 #                   static assets in nearly every other web framework.
 #   logs coverage   Node, in bare unanchored form; both match tracked
 #                   directories elsewhere. Anchored /coverage/ is used instead.
+
+# ============================================================================
+# This project
+# ============================================================================
+
+# ---> Puzzle inputs
+# One shared directory at the repository root rather than a copy inside each
+# language tree: the same day is solved in more than one language, and separate
+# copies would drift with nothing able to detect it. A program derives
+# data/<its own name>.txt from its own name rather than taking a path.
+#
+# Kept out of the repository because Advent of Code asks that puzzle inputs not
+# be included in a published one. A fresh checkout therefore has to create
+# data/ and fill it locally before any solution will run; each language README
+# says so.
+/data/
