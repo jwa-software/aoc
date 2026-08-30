@@ -1,0 +1,9 @@
+; One executable per day. The (modules ...) field stops being optional as soon
+; as there is a second stanza: without it each one claims every module in this
+; directory, and dune rejects a module claimed by more than one. It is written
+; out from the first stanza so that adding the second is a copy rather than a
+; correction.
+
+(executable
+ (name y2025d01)
+ (modules y2025d01))

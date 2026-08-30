@@ -1,0 +1,8 @@
+(lang dune 3.24)
+
+; The (lang ...) form has to be the literal first line of this file; a comment
+; above it is a parse error, not a comment.
+;
+; This file sits here rather than at the repository root because dune scans the
+; entire tree below its project root for dune files, so a dune-project at the
+; root would walk into every other language's directory.
