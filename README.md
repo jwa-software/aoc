@@ -10,7 +10,7 @@ This section is maintained by hand and nothing checks it, so a row belongs in th
 
 | Day | Solved in |
 |:--|:--|
-| 01 | [OCaml](ocaml/bin/y2025d01.ml), part one |
+| 01 | [OCaml](ocaml/bin/y2025d01.ml) |
 
 ## Layout
 
